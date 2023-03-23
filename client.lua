@@ -1,4 +1,4 @@
-﻿addEvent("playKutuSound", true)
+addEvent("playKutuSound", true)
 addEventHandler("playKutuSound", getRootElement(), function()
 	kutu = playSound("kutu.mp3", false) 
 	setSoundVolume(kutu, 1.0)
