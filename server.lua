@@ -1,6 +1,6 @@
--- frosty development -- 
+-- cleoppa development -- 
 
-local kutuYetki = "BoxAuthority"
+local BoxAuthority = "BoxAuthority"
 
 function table.random ( theTable )
     return theTable[math.random ( #theTable )]
