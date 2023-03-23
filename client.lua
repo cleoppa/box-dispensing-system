@@ -1,0 +1,10 @@
+﻿addEvent("playKutuSound", true)
+addEventHandler("playKutuSound", getRootElement(), function()
+	kutu = playSound("kutu.mp3", false) 
+	setSoundVolume(kutu, 1.0)
+end)
+
+addEvent("stopKutuSound", true)
+addEventHandler("stopKutuSound", getRootElement(), function()
+	stopSound(kutu)
+end)
